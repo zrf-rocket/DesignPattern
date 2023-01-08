@@ -4,15 +4,16 @@
 编程语言（C/CPP、Golang、Python、Java）设计模式（Design pattern）是解决软件开发某些特定问题而提出的一些解决方案也可以理解成解决问题的一些思路。通过设计模式可以帮助我们增强代码的可重用性、可扩充性、 可维护性、灵活性好。我们使用设计模式最终的目的是实现代码的高内聚和低耦合。
 
 ## 目录结构
->C/CPP设计模式  
+>[C/CPP设计模式](ccpp/README.md)
 >>
->Golang设计模式  
+>[Golang设计模式](Goland/README.md)
 >>
->Java设计模式  
+>[Java设计模式](Java/README.md)
 >>
->Python设计模式  
+>[Python设计模式](Python/README.md)
 >>
-
+>[JavaScript设计模式](JavaScript/README.md)
+>>
 
 ## 设计模式分类
 1. 创建型模式(5种)  
