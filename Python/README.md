@@ -1,33 +1,40 @@
 # Python Design Pattern
-设计模式与方法或库的使用方式不同，我们很难直接在自己的程序中套用某个设计模式。 模式并不是一段特定的代码， 而是解决特定问题的一般性思想。 你可以根据模式来实现符合自己程序实际所需的解决方案。
+
+设计模式与方法或库的使用方式不同，我们很难直接在自己的程序中套用某个设计模式。
+
+模式并不是一段特定的代码，而是解决特定问题的一般性思想。你可以根据模式来实现符合自己程序实际所需的解决方案。
 
 
 ## 创建型模式
 ### 工厂模式 factory method
 
+### 建造者（生成器）模式 builder
+
+### 原型模式 prototype
+
 ### 抽象工厂 abstract
 
-### 生成器 builder
 
-### 原型 prototype
 
-### 单例  singleton
+
+
+### 单例模式 singleton
 
 
 ## 结构型模式
-### 适配器 adapter
+### 适配器模式 adapter
 
 ### 桥接 bridge
 
 ### 组合 composite
 
-### 装饰 decorator
+### 装饰器模式 decorator
 
-### 外观 faced
+### 外观模式 faced
 
-### 享元 flyweight
+### 享元模式 flyweight
 
-### 代理 Proxy
+### 代理模式 Proxy
 
 ## 行为模式
 ### 责任链chain of responsibility
