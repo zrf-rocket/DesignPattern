@@ -1,5 +1,12 @@
 # Python Design Pattern
 
+> @author:SteveRocket  
+> @Date:2023/9/11  
+> @Email:rocket_2014@126.com  
+> @CSDN:https://blog.csdn.net/zhouruifu2015/  
+> @WeChat:https://mp.weixin.qq.com/s/0yqGBPbOI6QxHqK17WxU8Q
+
+
 设计模式与方法或库的使用方式不同，我们很难直接在自己的程序中套用某个设计模式。
 
 模式并不是一段特定的代码，而是解决特定问题的一般性思想。你可以根据模式来实现符合自己程序实际所需的解决方案。
