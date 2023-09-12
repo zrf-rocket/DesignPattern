@@ -4,8 +4,8 @@
 
 模式并不是一段特定的代码，而是解决特定问题的一般性思想。你可以根据模式来实现符合自己程序实际所需的解决方案。
 
+## 创建型模式 CreationPattern
 
-## 创建型模式
 ### 工厂模式 factory method
 
 ### 建造者（生成器）模式 builder
@@ -14,14 +14,10 @@
 
 ### 抽象工厂 abstract
 
-
-
-
-
 ### 单例模式 singleton
 
+## 结构型模式 StructuralPattern
 
-## 结构型模式
 ### 适配器模式 adapter
 
 ### 桥接 bridge
@@ -36,7 +32,8 @@
 
 ### 代理模式 Proxy
 
-## 行为模式
+## 行为模式 BehavioralPattern
+
 ### 责任链chain of responsibility
 
 ### 命令 command
