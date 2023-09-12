@@ -1,5 +1,7 @@
-class Frog:
+import settings
 
+
+class Frog:
     def __init__(self, name):
         self.name = name
 
@@ -7,27 +9,28 @@ class Frog:
         return self.name
 
     def interact_with(self, obstacle):
-        print('{} the Frog encounters {} and {}!'.format(self,
-                                                         obstacle, obstacle.action()))
+        print(
+            "{} the Frog encounters {} and {}!".format(
+                self, obstacle, obstacle.action()
+            )
+        )
 
 
 class Bug:
-
     def __str__(self):
-        return 'a bug'
+        return "a bug"
 
     def action(self):
-        return 'eats it'
+        return "eats it"
 
 
 class FrogWorld:
-
     def __init__(self, name):
         print(self)
         self.player_name = name
 
     def __str__(self):
-        return '\n\n\t------ Frog World ———'
+        return "\n\n\t------ Frog World ———"
 
     def make_character(self):
         return Frog(self.player_name)
@@ -37,7 +40,6 @@ class FrogWorld:
 
 
 class Wizard:
-
     def __init__(self, name):
         self.name = name
 
@@ -45,26 +47,28 @@ class Wizard:
         return self.name
 
     def interact_with(self, obstacle):
-        print('{} the Wizard battles against {} and {}!'.format(self, obstacle, obstacle.action()))
+        print(
+            "{} the Wizard battles against {} and {}!".format(
+                self, obstacle, obstacle.action()
+            )
+        )
 
 
 class Ork:
-
     def __str__(self):
-        return 'an evil ork'
+        return "an evil ork"
 
     def action(self):
-        return 'kills it'
+        return "kills it"
 
 
 class WizardWorld:
-
     def __init__(self, name):
         print(self)
         self.player_name = name
 
     def __str__(self):
-        return '\n\n\t------ Wizard World ———'
+        return "\n\n\t------ Wizard World ———"
 
     def make_character(self):
         return Wizard(self.player_name)
@@ -74,7 +78,6 @@ class WizardWorld:
 
 
 class GameEnvironment:
-
     def __init__(self, factory):
         self.hero = factory.make_character()
         self.obstacle = factory.make_obstacle()
@@ -85,11 +88,15 @@ class GameEnvironment:
 
 def validate_age(name):
     try:
-        age = input('Welcome {}. How old are you? '.format(name))
+        age = input("Welcome {}. How old are you? ".format(name))
         age = int(age)
     except ValueError as err:
-        print("Age {} is invalid, please try \
-        again…".format(age))
+        print(
+            "Age {} is invalid, please try \
+        again…".format(
+                age
+            )
+        )
         return (False, age)
     return (True, age)
 
@@ -104,5 +111,5 @@ def main():
     environment.play()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
