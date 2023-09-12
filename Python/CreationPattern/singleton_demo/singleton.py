@@ -1,5 +1,6 @@
 import settings
 
+
 class SingletonClass:
     def __init__(self):
         print(f"author:{settings.AUTHOR}")
