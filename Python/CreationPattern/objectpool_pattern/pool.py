@@ -1,4 +1,4 @@
-# @author:SteveRocket 
+# @author:SteveRocket
 # @Date:2023/9/12
 # @File:pool
 # @Email:rocket_2014@126.com
@@ -38,7 +38,7 @@ class Object:
         print(f"view blog {settings.BLOG}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # 使用对象池
     pool = ObjectPool(5)
 
