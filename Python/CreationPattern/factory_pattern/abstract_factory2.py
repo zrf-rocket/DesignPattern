@@ -69,10 +69,11 @@ class CompouterEngineer:
         self.cpu = factory_obj.create_cpu()
         self.mainboard = factory_obj.create_main_board()
         print(
-            f"computer [{factory_obj.computer_name}] info: cpu:{self.cpu.series_name} mainboard:{self.mainboard.series_name}")
+            f"computer [{factory_obj.computer_name}] info: cpu:{self.cpu.series_name} mainboard:{self.mainboard.series_name}"
+        )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # 工人
     engineer = CompouterEngineer()
     # Intel工厂

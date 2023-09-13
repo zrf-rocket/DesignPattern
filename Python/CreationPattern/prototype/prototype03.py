@@ -70,5 +70,6 @@ def main():
         print(i)
     print("ID b1 : {} != ID b2 : {}".format(id(b1), id(b2)))
 
+
 if __name__ == "__main__":
     main()
