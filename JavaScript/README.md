@@ -1,4 +1,5 @@
 # JavaScript Design Pattern
 
 #### 介绍
-JavaScript设计模式
+
+Node.js/JavaScript设计模式
